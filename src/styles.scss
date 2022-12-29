@@ -1,1 +1,16 @@
 /* You can add global styles to this file, and also import other style files */
+
+html{scroll-behavior: smooth;}
+
+body{
+    margin: 0;
+    background-color: #141D2f;
+}
+
+
+html, body { height: 100%; }
+body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
+
+@import "../node_modules/@angular/material/prebuilt-themes/deeppurple-amber.css";
+
+//@import "../node_modules/@angular/material/prebuilt-themes/deeppurple-amber.css";

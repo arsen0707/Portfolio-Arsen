@@ -1,0 +1,130 @@
+.fade-right {
+
+    position: absolute;
+    right: 0px;
+    top:897px ;
+    z-index: -1;
+    width: 278px;
+    height:408px;
+}
+
+.fade-left{
+    position: absolute;
+    left: 0;
+    z-index: -1;
+    width: 225px;
+    height: 721px;
+}
+
+.main-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    height: 100vh;
+    margin-top: 150px;
+}
+.left-container{
+     width: 600px;
+     height: 400px;
+     display: flex;
+     flex-wrap: wrap;
+
+     .photo-skill{
+        width: 39px;
+        height: 39px;
+        &:hover{
+            animation: vertical-shaking 225ms ease-in-out;
+        }
+     } 
+}
+
+
+@keyframes vertical-shaking {
+    0% { transform: translateY(0) }
+    25% { transform: translateY(5px) }
+    50% { transform: translateY(-5px) }
+    75% { transform: translateY(5px) }
+    100% { transform: translateY(0) }
+   }
+
+.under-left{
+    display: flex;
+    flex-direction: column;
+    width: 40px;
+    height: 40px;
+    margin-left: 110px;
+
+    p{
+        color: azure;
+        text-align: center;
+    }
+}
+
+.right-container{
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    align-items: center;
+    text-align: right;
+    width: 700px;
+    height: 350px;
+
+
+    .under-title{
+        display: flex;
+        justify-content: flex-end;
+        align-items: center;
+        height: 65px;
+        width: 700px;
+    }
+
+    h1{
+        color: white;
+        font-size: 90px;
+        margin-bottom: 0;
+    }
+
+    .text{
+        width:473px;
+        font-size: 16px;
+        color: white;
+    }
+
+    hr{
+        
+        width: 58px;
+        margin-right: 0;
+        margin-left: 45px;
+        border: 2px solid rgba(151, 71, 255, 1);
+        ;
+    }
+
+   
+}
+
+.button{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    width: 255px;
+
+    .first-button{
+        width: 200px;
+        height: 58px;
+        background-color:  rgb(151, 71, 255);
+        border: none;
+        border-radius: 10px;
+
+        &:hover{
+            background-color: rgba(112, 230, 28, 1);
+            transform: scale(1.2);
+        }
+    
+        a{
+            text-decoration: none;
+            font-size: 23px;
+            color: white;
+        }
+    }
+}

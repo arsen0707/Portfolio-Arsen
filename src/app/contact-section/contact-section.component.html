@@ -1,0 +1,48 @@
+
+<div class="main" id="contact">
+    <div class="title">
+        <hr>
+    
+        <h1>Contact me</h1>
+    </div>
+
+    <div class="container" >
+
+        <div class="left-side">
+            
+            <h2>Got a problem to solve?</h2>
+
+            <p>Contact me through this form,I'm interested in
+                hearing you,knowing your ideas and contributing
+                to your projects with my work
+            </p>
+
+            <p>Need a Frontend Developer?<span style="font-weight:bold;">Contact me!</span></p>
+        </div>
+
+        
+        <form  #myForm ngNativeValidate (submit)="sendMail()" >
+
+
+            <input type="text" name="name" required class="fieldName" #nameField>
+
+            <textarea name="" id="" cols="30" rows="10"  name="message" required class="textfield"></textarea>
+ 
+            <div class="button">
+                <button type="submit" class="first-button"  #sendButton>   
+                        Get In Touch                
+                </button>
+
+                <div  class="scroll">
+                  <a href="#head-menu"> <img  class="scrollo" src="./assets/img/scroll.png" alt=""></a>
+                </div>
+            </div>
+           
+        </form>
+
+       
+    </div>
+
+    <img class="fade" src="./assets/img/fade7.png" alt="">
+
+</div>

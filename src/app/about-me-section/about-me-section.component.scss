@@ -1,0 +1,108 @@
+.fade{
+    display: flex;
+    position: absolute;
+    top: 60px;
+    z-index: -1;
+   
+    img{
+    width: 690px;
+    height: 670px;
+    }
+ 
+}
+
+.about-me{
+    padding-top: 100px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+}
+
+.about-me-info{
+    color: azure;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+    height: 600px;
+    width: 700px;
+
+    img{
+        width: 35px;
+        height: 50px;
+        padding-bottom: 50px;
+    }
+
+    h1{
+        font-family: 'Poppins';
+        font-size: 90px;
+        width: 452px;
+        height: 90px;
+        align-items: center;
+    }
+
+    .paragraph1{  
+        text-align: left;
+        width: 450px;
+    }
+
+    .paragraph2{
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        flex-direction: row;
+        width: 450px;
+        font-style: normal;
+
+        img:hover{
+            transform: scale(1.5);
+        }
+
+        .text2{
+            width: 350px;
+            text-align: left;
+            
+        }
+    }
+
+    .paragraph3{
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        flex-direction: row;
+        width: 450px;
+        font-style: normal;
+
+        img:hover{
+            transform: scale(1.5);
+        }
+        .text3{
+            width: 350px;
+            text-align: left;
+            word-wrap: break-word;
+        }
+    }
+}
+
+
+.my-profile{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+
+    img{
+        width: 509px;
+        height: 509px;
+        border: 2px solid greenyellow;
+        border-radius: 50%;
+    }
+
+
+    hr{
+        width: 100px;
+        border: 2px greenyellow solid;
+        right: 0;
+        margin: 0;
+    }
+}

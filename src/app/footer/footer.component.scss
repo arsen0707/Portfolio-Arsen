@@ -1,0 +1,67 @@
+.footer{
+
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 270px;
+}
+
+hr{
+    border: solid 2px greenyellow;
+}
+
+.logo{
+    display: flex;
+    flex-direction: column;
+
+    
+    .logo-link{
+        
+        text-decoration: none;
+        font-size: 32px;
+        color: white;
+        margin-bottom: 0;
+        b{
+            color: greenyellow;
+        }
+
+    }
+
+    .impressum{
+        font-size: 16px;
+        color: white;
+        text-decoration: none;
+    }
+
+    .impressum:hover{
+        text-decoration: underline greenyellow;
+    }
+}
+
+.social-media{
+    display: flex;
+    justify-content: space-around;
+    width: 150px;
+
+    img{
+        width: 30px;
+        height: 30px;
+        filter: invert(1);
+        cursor: pointer;
+        transition: width 2s, height 2s, transform 2s;
+    }
+
+    img:hover{
+        
+        width: 60px;
+        height: 60px;
+        transform: rotate(360deg);
+    }
+}
+
+.copyright{
+    display: flex;
+    align-items: center;
+    color: white;
+    font-size: 16px;
+}

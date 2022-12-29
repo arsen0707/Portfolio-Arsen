@@ -1,0 +1,24 @@
+<hr>
+
+
+<div class="footer">
+
+    <div class="logo">
+        <a class="logo-link" href="">Arse<b>n</b></a>
+        <a class="impressum" href="">Imressum</a>
+    </div>
+
+    <div class="copyright">ⓒ Arsen Tasha 2022</div>
+
+    <div  class="social-media">
+
+        <div id="{{i}}" *ngFor="let photo of photos; let i=index ; ">
+
+            <a href="#">
+                <img  src="./assets/img/{{ photo }}.png" alt="">
+            </a>
+        </div>
+
+    </div>
+
+</div>

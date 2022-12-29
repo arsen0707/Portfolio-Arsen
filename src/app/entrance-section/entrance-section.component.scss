@@ -1,0 +1,148 @@
+
+
+.first-section{
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.left-container{
+
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    height: 800px;
+}
+.my-profile{
+    height: 705px;
+    width: 576px;
+}
+
+.right-container{
+    width: 650px;
+    height: 150px;
+    display: flex;
+    justify-content: center;
+}
+
+.rotated-text{ 
+    font-size: 64px;
+    height: 52px;
+    transform: rotate(-90deg);
+    color: #FFFFFF;
+}
+
+.rotated-div{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    line-height: 1.5;
+    height: 148px;
+    width: 129px;   
+}
+
+
+.main-titles{
+
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+    height: 259px;
+
+    h1{
+        height: 38px;
+        width: 500px;
+        font-size: 90px;
+        color: #FFFFFF;
+        margin-bottom: 0;
+    }
+
+    h2{
+        height: 46px;
+        width: 511px;
+        font-size: 58px;
+        color: #9747FF;
+    }
+  
+}
+
+.button-click{
+    position: relative;
+    width: 200px;
+    height: 58px;
+    background-color:  rgba(112, 230, 28, 1);
+    border: none;
+    border-radius: 10px;
+    font-weight: 400;
+    font-size: 23px;
+    line-height: 120%;
+    order: 0;
+    flex-grow: 0;
+
+    &:hover{
+        background-color: rgb(151, 71, 255);
+        transform: scale(1.2);
+    }
+
+    a{
+        text-decoration: none;
+        font-size: 23px;
+        color: white;
+    }
+}
+
+.social-media{
+    margin-top: 180px;
+    margin-left: 100px;
+    width: 280px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    hr{
+        width: 45px;
+        border: #9747FF 2px solid;
+        position: absolute;
+        left: 0;
+    }
+
+    img{
+        width: 25px;
+        height: 25px;
+        filter: invert(1);
+        cursor: pointer;
+    }
+
+    img:hover{
+        transform: scale(1.6);
+        animation: animations 225ms ease-in-out;
+        margin-left: 10px;
+    }
+
+    @keyframes animations {
+        from {margin-left: 0px;}
+        to {margin-left: 10px;}
+    }
+
+
+    a{
+        text-decoration: none;
+        color: white;
+        z-index: 1;
+    }
+
+    a:hover{
+        text-decoration: underline;
+    }
+}
+
+.vector{
+    position: absolute;
+    width: 100%;
+    top: 370px;
+    z-index: -1;
+}
